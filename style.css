@@ -23,7 +23,7 @@ body{
 
 #hero .black-section picture img{
     position: absolute;
-    max-width: 600px;
+    max-width: 800px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -164,15 +164,10 @@ h3{
 
 }
 
-@media screen and (max-width:599px) {
+@media screen and (max-width:799px) {
     #hero .black-section picture img{
         max-width: 100%;
     }
 }
 
-@media screen and (max-width:889px) {
-/*     .hero-logo{
-        font-size: 3rem;
-    } */
-}
 
