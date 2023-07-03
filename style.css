@@ -122,6 +122,10 @@ body{
 
 /* utility classes */
 
+.sec-pad{
+    padding-block: 100px;
+}
+
 a{
     text-decoration: none;
     color:#0c0c0c;
