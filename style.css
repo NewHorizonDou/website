@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    direction: rtl;
+    font-family: 'Heebo', sans-serif;
+}
+
+body{
+    font-size: 18px;
+}
+.nav-link{
+    color:#0c0c0c;
+}
+
+#hero{
+    height: calc(100vh - 59px);
+    padding: 0;
+}
+
+#hero .black-section{
+    position: relative;
+}
+
+#hero .black-section picture img{
+    position: absolute;
+    max-width: 600px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow-y: visible;
+}
+
+.hero-logo{
+    font-weight: 800;
+    font-size: 7vw;
+    letter-spacing: 9px;
+    margin: 0;
+    line-height: 1;
+    padding: 0;
+}
+
+
+
+.black-section{
+    background-color: #0c0c0c;
+    color:#fff;
+    margin: 0;
+}
+
+.videos{
+        background: linear-gradient(
+            to bottom,
+            #0c0c0c 0%,
+            #0c0c0c 50%,                                                                 
+            white 50%,
+            white 100%
+        );
+        text-align: center;
+        color: white;
+}
+
+.videos-player{ 
+    max-width: 75%;
+}
+
+ .videos-player .video{
+    position: relative;
+    padding-bottom: 56.10%;
+    height: 0;
+    overflow: hidden;
+}
+
+.videos-player .video iframe,
+.videos-player .video object,
+.videos-player .video embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tickets-btn{
+    background-color: #0c0c0c;
+    border: 0;
+    height: 40px;
+    width: 154px;
+}
+
+.tickets-btn .tickets-btn-link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.contant-input{
+    width: 100%;
+    max-width: 338px;
+    border: 2px solid #0c0c0c;
+    height: 40px;
+}
+.contant-textarea{
+    width: 100%;
+    max-width: 338px;
+    border: 2px solid #0c0c0c;
+    height: 120px;
+}
+
+
+.review-cont{
+    max-width: 1000px;
+}
+
+.review-item{
+    font-style: italic;
+}
+
+.video-options{
+    color: #0c0c0c;
+}
+
+/* utility classes */
+
+a{
+    text-decoration: none;
+    color:#0c0c0c;
+}
+.text-med{
+    font-weight: 500;
+}
+
+.personal-pic{
+    max-width:310px;
+}
+
+
+h3{
+    font-size: 25px;
+}
+
+
+/* mobile adaptations */
+@media screen and (max-width:768px) {
+    #jacky-text{
+        order: 2;
+    }
+
+    #ilan-text{
+        order:1;
+    }
+
+    .videos-player{
+        min-width:100%;
+    }
+
+    #contant-inner{
+        min-width: 100%;
+    }
+
+}
+
+@media screen and (max-width:599px) {
+    #hero .black-section picture img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:889px) {
+/*     .hero-logo{
+        font-size: 3rem;
+    } */
+}
+
